@@ -1,0 +1,18 @@
+{
+  "name": "multer-upload",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Загрузка файлов через Express и Multer",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
